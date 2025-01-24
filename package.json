@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbo -p 3001",
-    "build": "next build",
-    "start": "next start",
+    "build": "next build && ./build.sh",
+    "start": "node build/server.js",
     "lint": "next lint"
   },
   "dependencies": {

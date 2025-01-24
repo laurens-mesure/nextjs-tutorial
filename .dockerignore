@@ -1,0 +1,12 @@
+Dockerfile
+.dockerignore
+node_modules
+npm-debug.log
+README.md
+.next
+!.next/static
+!.next/standalone
+.git
+apps/eten/products
+apps/eten/products.md
+apps/eten/delhaizesitemap-0.xml
